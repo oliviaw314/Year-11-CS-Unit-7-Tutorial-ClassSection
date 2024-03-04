@@ -55,7 +55,6 @@ public class ClassSection {
     public boolean isStudentEnrolled(Student student) {
         return (students.contains(student));
     }
-
     public String toString() {
         return "ClassSection{subject='"+subject+"', capacity="+capacity+", yearLevel="+yearLevel+", students="+students+"}";
     }

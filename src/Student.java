@@ -56,7 +56,6 @@ public class Student {
     public boolean equals(Student student) {
         return (this.equals(student)); // this refers to the Student object that the method is being invoked upon
     }
-
     public String toString() {
         return "Student{id="+id+", firstName='"+firstName+"', lastName='"+lastName+"', age="+age+", yearLevel="+yearLevel+"}";
     }
